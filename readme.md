@@ -41,8 +41,8 @@ turbine_anomaly_detection/
 
 > **Health Index = Chỉ số sức khỏe của tuabin**
 >
-> - HI **thấp** (< threshold) → Tuabin hoạt động bình thường ✅
-> - HI **vượt threshold** → Tuabin có dấu hiệu lỗi ❌
+> - HI **thấp** (< threshold) → Tuabin hoạt động bình thường
+> - HI **vượt threshold** → Tuabin có dấu hiệu lỗi
 
 **Cách tính:**
 
@@ -57,11 +57,11 @@ Bước 3: So sánh với threshold → phát hiện lỗi
 
 | Thời gian | RE (thô) | HI (mượt) | Trạng thái |
 |---|---|---|---|
-| 08:00 | 0.015 | 0.015 | ✅ Bình thường |
-| 10:00 | 0.020 | 0.017 | ✅ Bình thường |
-| 11:00 | 0.045 | 0.022 | ⚠️ Tăng nhẹ |
-| 12:00 | 0.120 | 0.042 | ⚠️ Cảnh báo |
-| 13:00 | 0.250 | 0.084 | ❌ Lỗi phát hiện! |
+| 08:00 | 0.015 | 0.015 |  Bình thường |
+| 10:00 | 0.020 | 0.017 |  Bình thường |
+| 11:00 | 0.045 | 0.022 |  Tăng nhẹ |
+| 12:00 | 0.120 | 0.042 |  Cảnh báo |
+| 13:00 | 0.250 | 0.084 |  Lỗi phát hiện! |
 
 ---
 
